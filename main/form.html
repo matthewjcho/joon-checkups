@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> Joon Checkups </title>
+        <link rel = "stylesheet" href = "/style/input.css">
+        <link rel = "stylesheet" href = "/style/question1.css">
+        <link rel = "stylesheet" href = "/style/frq.css">
+        <link rel = "stylesheet" href = "/style/final.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id = 'menu'>
+            <img id = 'ksa' src = "/style/images/KSA_Logo (1) (1).png">
+            <div id = 'left-slider'>
+                <div class = 'left' id = 'slide1'>
+                    <div class = 'header' id = 'header1'> 
+                        <p style = "font-size: larger; margin-bottom: 7px; font-weight: 500;"> Welcome to Joon Checkups. </p>
+                        <p style = "font-size: small; margin-left: 5px;"> Hope you're chillin bro. </p>
+                    </div>
+                    <div id = 'content1'>
+                        <div id = 'first-name'>
+                            <p style = "font-weight: 400;"> First name </p>
+                            <input id = 'first-name-box' type = "text" placeholder= "First name">
+                        </div>
+                        <div id = 'last-name'>
+                            <p style = "font-weight: 400;"> Last name </p>
+                            <input id = 'last-name-box' type = "text" placeholder = "Last name">
+                        </div>
+                        <div id = 'e-mail'>
+                            <p style = "font-weight: 400;"> KSA Position </p>
+                            <input id = 'position-box' type = "text" placeholder = "KSA Position">
+                        </div>
+                    </div>
+                </div>
+    
+                <div class = 'left' id = 'slide2'>
+                    <div class = 'header' id = 'header2'> 
+                        <p style = "font-size: small; margin-left: 5px;"> Gonna be asking you a couple of questions. Be honest with me. I wanna see you win. </p>
+                    </div>
+                    <div id = 'content2'>
+                        <div id = 'question1'>
+                            <p style = "font-weight: 400;"> How has this past month been? </p>
+                            <div style = "display: flex; flex-direction: row;">
+                                <div id = 'options'>
+                                    <input id = 'option1' name = "feelings" type = "radio" value = "1">  </input>
+                                    <input id = 'option2' name = "feelings" type = "radio" value = "2">  </input>
+                                    <input id = 'option3' name = "feelings" type = "radio" value = "3"> </input>
+                                    <input id = 'option4' name = "feelings" type = "radio" value = "4">  </input>
+                                    <input id = 'option5' name = "feelings" type = "radio" value = "5">  </input>
+                                </div>
+                                <div id = 'labels'>
+                                    <label for = 'option1'> Terrible bro </label>
+                                    <label for = 'option2'> Not great </label>
+                                    <label for = 'option3'> Alright </label>
+                                    <label for = 'option4'> Great </label>
+                                    <label for = 'option5'> Awesome bro, feel like I could fly</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = 'left' id = 'slide3'>
+                    <div class = 'frq-content'>
+                        <div id = 'question2'>
+                            <p style = "font-weight: 400;"> Describe this month's workload as part of KSA. Are you facing any challenges?</p>
+                            <textarea class = 'textarea' id = 'textarea1'> </textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = 'left' id = 'slide4'>
+                    <div class = 'frq-content'>
+                        <div id = 'question3'>
+                            <p style = "font-weight: 400;"> How confident are you in your role? If not, why so? </p>
+                            <textarea class = 'textarea' id = 'textarea2'> </textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = 'left' id = 'slide5'>
+                    <div class = 'frq-content'>
+                        <div id = 'question4'>
+                            <p style = "font-weight: 400;"> Describe flaws within KSA's system and how we should work to overcome them.</p>
+                            <textarea class = 'textarea' id = 'textarea3'> </textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = 'left' id = 'slide6'>
+                    <div class = 'frq-content'>
+                        <div id = 'question5'>
+                            <p style = "font-weight: 400;"> Lmk your fav song. I'll make sure to play it next GBM/event.</p>
+                            <textarea class = 'textarea' id = 'textarea4' style = 'height: 10vh;'> </textarea>
+                            <input id = 'submit-button' type = "submit">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class = 'left' id = 'final-slide' style = "display: none;">
+                <div class = 'final'>
+                    <p> Thanks for filling this out. I appreciate your hard work bro, keep it up. </p>
+                    <p class = 'quote' name = 'quote'> "Whenever you find yourself on the side of the majority, it's time to pause and reflect."</p>
+                    <label for = 'quote'> - Mark Twain </label>
+                </div>
+            </div>
+
+            
+            <div class = "slider-nav">
+                <a id = 'slidernav-1' href = "#slide1"></a>
+                <a id = 'slidernav-2' href = "#slide2"></a>
+                <a id = 'slidernav-3' href = "#slide3"></a>
+                <a id = 'slidernav-4' href = "#slide4"></a>
+                <a id = 'slidernav-5' href = "#slide5"></a>
+                <a id = 'slidernav-6' href = "#slide6"></a>
+            </div>
+        </div>
+
+
+        <div id = 'right'>
+            <div id = "slider">
+                <img id = 'image1' src = "/style/images/IMG_3949.jpg">
+                <img id = 'image2' src = "/style/images/IMG_3950.jpg">
+                <img id = 'image3' src = "/style/images/IMG_3947.jpg">
+                <img id = 'image4' src = "/style/images/IMG_3948.jpg">
+            </div>
+        </div>
+
+
+        <script src = "/main/main.js"> </script>
+    </body>
+
+</html>

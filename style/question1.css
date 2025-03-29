@@ -1,0 +1,35 @@
+#header2 {
+    position: relative;
+    left: 100px;
+    top: 15px;
+}
+
+#content2 {
+    position: relative;
+    top: 80px;
+    left: 110px;
+}
+
+#options {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-left: 2px;
+    align-items: start;
+    row-gap: 25px;
+}
+
+#options input {
+    margin-left: 10px;
+}
+
+#labels {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16.5px;
+    left: 50px;
+    margin-top: 18px;
+
+}

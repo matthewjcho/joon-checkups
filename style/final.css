@@ -1,0 +1,33 @@
+.final {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    margin-left: 160px;
+    margin-top: 250px;
+    animation: finalTransition 5s;
+}
+
+.quote {
+    position: absolute; 
+    font-size: small; 
+    top: 65px; 
+    animation: finalTransition 2s;
+}
+
+.final label {
+    position: absolute;
+    font-size: small;
+    top: 100px;
+    left: 35%;
+    animation: finalTransition 2.5s;
+}
+
+@keyframes finalTransition {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
